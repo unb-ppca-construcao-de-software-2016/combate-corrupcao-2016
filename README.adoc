@@ -19,3 +19,7 @@ Atualmente muito se tem falado sobre a corrupção no governo brasileiro, uma pa
 * 01-07-2016 - Mineração de produtos na Web
 * 08-07-2016 - Análise comparativa dos dados de compras com os dados da Web
 * 15-07-2016 - Entrega final
+
+== Atividades do projeto
+
+* https://trello.com/b/oSCeJeya/projeto-de-combate-a-corrupcao
