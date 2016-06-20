@@ -1,0 +1,21 @@
+= Trabalho 2, Entrega 1
+
+== Definição do Time
+
+* Alex Peral
+* Fabio Leal
+* Felipe Fonseca
+* Paulo Jerônimo
+* Renan Filgueiras
+* Sigfredo Rocha
+
+== Briefing do projeto
+
+Atualmente muito se tem falado sobre a corrupção no governo brasileiro, uma parte da população começou a acompanhar, cobrar e fiscalizar na medida do possível o uso do dinheiro público. Um dos grandes problemas é a dificuldade de controle sobre as compras do governo pois a quantidade de contratos é enorme, para um cidadão conferir se o valor pago pelo governo aos fornecedores está de acordo com o mercado, ou seja, não estão jogando seu dinheiro fora, ele precisa buscar manualmente esses dados, o que dificilmente trará resultado satisfatório. A solução proposta é a criação de um programa que recupera dos dados abertos do governo as informações de compras e minerar os valores dos produtos na web para apresentar de forma mais informativa e inteligente uma análise.
+
+== Plano de entregas semanais
+
+* 24-06-2016 - Comunicação com a API de dados abertos
+* 01-07-2016 - Mineração de produtos na Web
+* 08-07-2016 - Análise comparativa dos dados de compras com os dados da Web
+* 15-07-2016 - Entrega final
