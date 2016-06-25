@@ -13,12 +13,19 @@
 
 Atualmente muito se tem falado sobre a corrupção no governo brasileiro, uma parte da população começou a acompanhar, cobrar e fiscalizar na medida do possível o uso do dinheiro público. Um dos grandes problemas é a dificuldade de controle sobre as compras do governo pois a quantidade de contratos é enorme, para um cidadão conferir se o valor pago pelo governo aos fornecedores está de acordo com o mercado, ou seja, não estão jogando seu dinheiro fora, ele precisa buscar manualmente esses dados, o que dificilmente trará resultado satisfatório. A solução proposta é a criação de um programa que recupera dos dados abertos do governo as informações de compras e minerar os valores dos produtos na web para apresentar de forma mais informativa e inteligente uma análise.
 
+== Personas: 
+* Militantes virtuais (redes sociais)
+* Empresários (interessados em licitações)
+* Vem p/ rua (Militantes que vão para a rua efetivamente)
+* Testemunhas (de atos de corrupção)
+
+
 == Plano de entregas semanais
 
-* 24-06-2016 - Comunicação com a API de dados abertos
-* 01-07-2016 - Mineração de produtos na Web
-* 08-07-2016 - Análise comparativa dos dados de compras com os dados da Web
-* 15-07-2016 - Entrega final
+* 24-06-2016 - Definição de personas, reformulação do plano de entregas
+* 01-07-2016 - Definição da solução, validação com o usuário
+* 08-07-2016 - Protótipo
+* 15-07-2016 - Finalizar a validação do protótipo e fazer a entrega final
 
 == Atividades do projeto
 
