@@ -19,6 +19,17 @@ Atualmente muito se tem falado sobre a corrupção no governo brasileiro, uma pa
 * Vem p/ rua (Militantes que vão para a rua efetivamente)
 * Testemunhas (de atos de corrupção)
 
+== Solução:
+O sistema contará com um cadastro (com a opção do anonimato), um formulário para registrar uma história com tags para facilitar buscas e uma listagem de histórias já relatadas com busca e filtro, para pesquisa por estado, órgão, etc.
+O sistema deve possuir um mecanismo de retorno às pessoas que postaram suas reclamações. Se for anônimo os resultados serão apenas apresentados no histórico do sistema.
+Outra funcionalidade será o mapa da corrupção que apresentará os focos de corrupções e a localização das empresas que ganharam licitações a fim da população verificar a autenticidade de cada uma, descobrindo assim possíveis empresas fantasmas.
+As soluções descritas acima serão refinadas e talvez modificadas de acordo com os resultados de validação da ideia, por meio de protótipo e entrevista aberta.
+
+== Validação da proposta:
+* Protótipo da ideia
+* Entrevista aberta
+  - Possíveis questões: Você já presenciou algum fato que considera corrupção? Se sim, onde foi e como foi? Você sentiu vontade de realizar alguma denúncia ou expor isso? E sabe como levar essa denúncia a entidades responsáveis? 
+
 == Plano de entregas semanais
 
 * 24-06-2016 - Definição de personas, reformulação do plano de entregas
