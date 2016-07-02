@@ -11,14 +11,13 @@
 
 == Briefing do projeto
 
-Atualmente muito se tem falado sobre a corrupção no governo brasileiro, uma parte da população começou a acompanhar, cobrar e fiscalizar na medida do possível o uso do dinheiro público. Um dos grandes problemas é a dificuldade de controle sobre as compras do governo pois a quantidade de contratos é enorme, para um cidadão conferir se o valor pago pelo governo aos fornecedores está de acordo com o mercado, ou seja, não estão jogando seu dinheiro fora, ele precisa buscar manualmente esses dados, o que dificilmente trará resultado satisfatório. A solução proposta é a criação de um programa que recupera dos dados abertos do governo as informações de compras e minerar os valores dos produtos na web para apresentar de forma mais informativa e inteligente uma análise.
+Atualmente muito se tem falado sobre a corrupção no governo brasileiro, uma parte da população começou a acompanhar, cobrar e fiscalizar na medida do possível o uso do dinheiro público. Um dos grandes problemas é a dificuldade de realizar denúncias e acompanhar o resultado desta, onde muitas vezes o sentimento de impunidade permanece no ar. Possibilitar uma forma mais simplificada de denúncias / reclamações onde a confirmação por vários usuários pode levar a um resultado mais efetivo junto a um órgão responsável auxilia como motivação para novos reportes e combate a corrupção. A solução proposta é a criação de um sistema para que os cidadãos do Distrito Federal possam reportar possíveis casos de corrupções, juntamente com informações disponíveis de dados de empresas provedoras de serviços ao governo a fim de realizar um mapa da corrupção do Distrito Federal.
 
 == Personas: 
 * Militantes virtuais (redes sociais)
 * Empresários (interessados em licitações)
 * Vem p/ rua (Militantes que vão para a rua efetivamente)
 * Testemunhas (de atos de corrupção)
-
 
 == Plano de entregas semanais
 
