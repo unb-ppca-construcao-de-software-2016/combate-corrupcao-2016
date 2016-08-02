@@ -1,6 +1,6 @@
 = UnB - PPCA - Publique seu artigo
 
-image:https://github.com/lealfb/publique-seu-artigo/blob/master/publique_seu_artigo.png
+image::https://github.com/lealfb/publique-seu-artigo/blob/master/publique_seu_artigo.png
 
 == Time
 * Fabio Leal
