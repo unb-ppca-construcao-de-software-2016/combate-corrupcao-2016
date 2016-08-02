@@ -1,42 +1,31 @@
-= Trabalho 2, Entrega 1
+= UnB - PPCA - Publique seu artigo
 
-== Definição do Time
+<img src="https://github.com/lealfb/publique-seu-artigo/blob/master/publique_seu_artigo.png" />
 
-* Alex Peral
+== Time
 * Fabio Leal
 * Felipe Fonseca
-* Paulo Jerônimo
 * Renan Filgueiras
 * Sigfredo Rocha
 
-== Briefing do projeto
+== O Problema
+Há uma forte pressão por publicações de artigos no Mestrado Profissional da UnB, a cada novo ciclo alunos novatos se deparam com a dificuldade de encontrar, congressos, workshops, conferências para submeter seus artigos. Além disso, seria interessante quais foram as publicações dos alunos veteranos.      
 
-Atualmente muito se tem falado sobre a corrupção no governo brasileiro, uma parte da população começou a acompanhar, cobrar e fiscalizar na medida do possível o uso do dinheiro público. Um dos grandes problemas é a dificuldade de realizar denúncias e acompanhar o resultado desta, onde muitas vezes o sentimento de impunidade permanece no ar. Possibilitar uma forma mais simplificada de denúncias / reclamações onde a confirmação por vários usuários pode levar a um resultado mais efetivo junto a um órgão responsável auxilia como motivação para novos reportes e combate a corrupção. A solução proposta é a criação de um sistema para que os cidadãos do Distrito Federal possam reportar possíveis casos de corrupções, juntamente com informações disponíveis de dados de empresas provedoras de serviços ao governo a fim de realizar um mapa da corrupção do Distrito Federal.
+== O Público  
+* Alunos regulares e especiais do Mestrado Profissional da UnB. 
 
-== Personas: 
-* Militantes virtuais (redes sociais)
-* Empresários (interessados em licitações)
-* Vem p/ rua (Militantes que vão para a rua efetivamente)
-* Testemunhas (de atos de corrupção)
-
-== Solução:
-O sistema contará com um cadastro (com a opção do anonimato), um formulário para registrar uma história com tags para facilitar buscas e uma listagem de histórias já relatadas com busca e filtro, para pesquisa por estado, órgão, etc.
-O sistema deve possuir um mecanismo de retorno às pessoas que postaram suas reclamações. Se for anônimo os resultados serão apenas apresentados no histórico do sistema.
-Outra funcionalidade será o mapa da corrupção que apresentará os focos de corrupções e a localização das empresas que ganharam licitações a fim da população verificar a autenticidade de cada uma, descobrindo assim possíveis empresas fantasmas.
-As soluções descritas acima serão refinadas e talvez modificadas de acordo com os resultados de validação da ideia, por meio de protótipo e entrevista aberta.
+== A Solução
+Uma plataforma que permita ao aluno localizar informações sobre as publicações do PPCA. 
 
 == Validação da proposta:
 * Protótipo da ideia
 * Entrevista aberta
-  - Possíveis questões: Você já presenciou algum fato que considera corrupção? Se sim, onde foi e como foi? Você sentiu vontade de realizar alguma denúncia ou expor isso? E sabe como levar essa denúncia a entidades responsáveis? 
 
-== Plano de entregas semanais
+== Plano de entregas
+* 29-07-2016 - Definição do problema, possível solução.
+* 02-08-2016 - Protótipo, redefinição do plano de entregas
+* 05-08-2016 - Carga da Base com publicações
+* 07-08-2016 - Entrega da versão final viável
 
-* 24-06-2016 - Definição de personas, reformulação do plano de entregas
-* 01-07-2016 - Definição da solução, validação com o usuário
-* 08-07-2016 - Protótipo
-* 15-07-2016 - Finalizar a validação do protótipo e fazer a entrega final
-
-== Atividades do projeto
-
-* https://trello.com/b/oSCeJeya/projeto-de-combate-a-corrupcao
+== Nossas atividades
+* https://trello.com/publiqueseuartigo
