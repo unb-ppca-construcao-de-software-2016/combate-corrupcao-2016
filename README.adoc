@@ -29,3 +29,6 @@ Uma plataforma que permita ao aluno localizar informações sobre as publicaçõ
 
 == Nossas atividades
 * https://trello.com/publiqueseuartigo
+
+== Visite nossa página
+* https://publique-seu-artigo.herokuapp.com/

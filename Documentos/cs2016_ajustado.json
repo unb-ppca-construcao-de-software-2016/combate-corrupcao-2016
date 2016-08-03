@@ -1,0 +1,758 @@
+[
+	{
+		"id": "http://zotero.org/users/2572767/items/R88B7VIB",
+		"type": "paper-conference",
+		"title": "Ziriguidum in nursing data: Cofen´s Data Processing Methodology - Pesquisa Google",
+		"collection-title": "Qualis não identificado",
+		"event-webpage": "http://www.gtmconference.org/pages/submitabstract.html",
+		"event-sigla": "GTM",
+		"deadline-submission": "September,13",
+		"event-date": "April,29",
+		"event": "Global TechMining Conference",
+		"event-place": "GTM",
+		"abstract": "The Federal Nursing Council is the largest category class in Brazil, with 1,535,568 inscriptions of active professionals in the Cofen – Regional Nursing Councils System, which represent 1,429,951 nursing professionals logged in the data base in 2012.\nCofen’s Ziriguidum methodology for data treatment employed free software to assemble the infrastructure of a nursing data warehouse. The software employed were PogreSQL version 9.1, Pentaho BI Suite version CE 4.5.0, and I3Geo version 4.6. \nFree software made feasible the implementation of a sophisticated TIC infrastructure for conducting Business Intelligence (BI) analysis, which previously owned platforms concluded were not feasible due to high cost for acquisition of software and necessary licenses.\nThe great amount of data and its distribution through the 27 Regional councils of Nursing makes the database integration an arduous job. For such reason, employing specialist software integrated with advanced data treatment methodologies are very useful to btain innovating answers and visions of data that allow finding data relationshipand hidden knowledge in the mass of data of the several database existent in the Cofen Corens System and the several governmental offices.Without adequate treatment of the data mass, the only result is “info-intoxication”.\nIn some situations, tabled data of systems (reports and webs) aren’t sufficient as to represent situations in the real world in a complete visual form. That’s when the representation of data in the thematic cartographic shapehelps in the representation of great volumes of data and allows perception of knowledge and information usually hidden in these masses of data.\nAmong the several difficulties and challenges in the implantation of Nursing DW is the processing of spatial view, as for the geographic attribute is usually a very large data set to be processed.On such account viewperformance tests were realized in order to find a structure that presented the necessary speed in its processing and, at the same time, allowed itself to be employed in obtaining thematic cartograms on I3Geo. The solution was to create a view of the data of interest in the DW and, afterwards, relate this view with the geographical table, as to aggregate the corresponding geographical attribute with the spatial dimensionin which the thematic cartogram is wanted.In the example presented in this article, we managed to reduce processing time from 20 minutes to less than1.5 second.\nBesides that, the use of a Geographical Information System (SIG) allows better understanding of the behavior of cities, regions and countries through visual representation of tabulated data and perception of tendencies which in textual format would not be perceived on account of the great volume of data to be analyzed.\nThe next step for future is to apply statistical techniques and Data Mining computational methods in order to find and to improve knowledge in Nursing Sciences and to contribute to Health policies agencies.",
+		"URL": "https://www.google.com.br/search?q=riguidum+in+nursing+data%3A+Cofen%C2%B4s+Data+Processing+Methodology%5D&ie=utf-8&oe=utf-8&client=firefox-b-ab&gfe_rd=cr&ei=MxidV5eNGM3V8wfq5IHIDg#q=Ziriguidum+in+nursing+data:+Cofen%C2%B4s+Data+Processing+Methodology",
+		"author": [
+			{
+				"family": "Persegona",
+				"given": "Marcelo Felipe Moreira"
+			},
+			{
+				"family": "Albuquerque",
+				"given": "Gelson Luiz",
+				"dropping-particle": "de"
+			},
+			{
+				"family": "Souza",
+				"given": "João Carlos Felix"
+			},
+			{
+				"family": "Freire",
+				"given": "Neyson Pinheiro"
+			},
+			{
+				"family": "Cruz",
+				"given": "Matheus Moreira"
+			},
+			{
+				"family": "Valentim",
+				"given": "Gedalias Hugo de Oliveira"
+			},
+			{
+				"family": "González",
+				"given": "Gustavo Rocha Aquino"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/QFFWGNIZ",
+		"type": "paper-conference",
+		"title": "Model to estimate the size of a Hadoop cluster - HCEm",
+		"collection-title": "Qualis B1",
+		"event-webpage": "http://grid.hust.edu.cn/icpads2016/",
+		"event-sigla": "ICPADS",
+		"deadline-submission": "December,13-16",
+		"event-date": "July,14",
+		"event": "IEEE International Conference on Parallel and Distributed Systems",
+		"event-place": "ICPADS",
+		"abstract": "This paper describes a model which aims to estimate the size of a cluster running Hadoop framework for the processing of large datasets at a given timeframe. As main contributions it denes (i) a light layer of optimization for MapReduce jobs, (ii) presents a model to estimate the size cluster for a Hadoop framework and (iii) performs tests using a real environment - the Amazon Elastic MapReduce. The proposed approach works with the MapReduce to dene the main configuration parameters and determines computational resources of hosts in the cluster in order to meet the desired runtime for the requirements of a given workload requirement. Thus, the results show that the proposed model is able to avoid to over-allocation or sub-allocation of computing resources on a Hadoop cluster.",
+		"URL": "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7097897&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7097897",
+		"author": [
+			{
+				"family": "Brito",
+				"given": "J. B. de Souza"
+			},
+			{
+				"family": "Araújo",
+				"given": "A. P. F."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/C9D68UPP",
+		"type": "paper-conference",
+		"title": "Estudo Comparativo de Modelos de Maturidade Aplicados à Gestão de Riscos - Uma aborgagem sob a perspectiva da tecnologia da informação.",
+		"collection-title": "Qualis não identificado",
+		"event-webpage": "http://www.inovarse.org/node/24",
+		"event-sigla": "CNEG",
+		"deadline-submission": "Setembro,29-30",
+		"event-date": "Maio,16",
+		"event": "Congresso Nacional de Excelência em Gestão",
+		"event-place": "CNEG",
+		"abstract": "A gestão de riscos de TI se constitui de um importante instrumento para o processo de governança de TI, permitindo que os riscos sejam conhecidos e adequadamente tratados, provendo a organização de informações precisas para a tomada de decisão. No entanto, quão eficiente é o processo de gestão de riscos em uma organização? Como avaliar a maturidade no processo de gestão de riscos? Quais são os modelos existentes para avaliação de maturidade? Quais as suas principais características? Para ajudar a responder a essas e outras questões, este artigo apresenta um estudo comparativo envolvendo cinco modelos de maturidade, oriundos de frameworks de mercado, modelos acadêmicos e norma de referência. São eles: Capability Maturity Model Integration - CMMI, Control Objetives for Information and related Technology - COBIT, Formação de Valor em Sistemas de Atividades Humanas - FVSAH, ISO/IEC 15504 e Risk Maturity Model - RMM. Ao final é apresentada uma matriz comparativa que consolida as principais características dos modelos de maturidade estudados, fornecendo elementos importantes para a escolha do modelo e estimulando o desenvolvimento de futuros trabalhos sobre o tema.",
+		"URL": "http://www.inovarse.org/sites/default/files/T14_0191_4.pdf",
+		"author": [
+			{
+				"family": "Araújo",
+				"given": "Misael Sousa",
+				"dropping-particle": "de"
+			},
+			{
+				"family": "Oliveira",
+				"given": "Edgard Costa"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					8,
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/3HB6FCQR",
+		"type": "paper-conference",
+		"title": "Middleware for Processing Message Queues with Elasticity Support and Sequential Integrity of Asynchronous Message Processing",
+		"collection-title": "Qualis C",
+		"event-webpage": "http://iopscience.iop.org/journal/1742-6596;jsessionid=CEA4260F17C8A784B0F9CAC5FBF245EC.c3.iopscience.cld.iop.org",
+		"event-sigla": "JPCS",
+		"deadline-submission": "A qualquer momento",
+		"event-date": "A qualquer momento",
+		"event": "Journal of Physics: Conference Series",
+		"event-place": "JPCS",
+		"abstract": "Elasticity in computing refers to dynamically adjusting the amount of allocated resources to process a distributed application. In order to achieve this, mechanisms are needed to avoid the phenomenon of the elasticity threshold detection moving constantly up or down. The existing work fails to deliver sequential integrity of asynchronous messages processing and the asymmetries of data distribution to achieve parallel consumption. This paper fills this gaps and proposes a middleware solution to dynamically analyze the flow of message queue, and a mechanism to increase the parallelized consumption based on the output behavior. An architecture for IOD (Increase On Demand) middleware is presented, with support for the increase and decrease of thread's to cope with the growth of message queues, using the technique of limit-based heuristics over a given period of time and grouping messages into sub-queues based on classification criteria.",
+		"URL": "http://stacks.iop.org/1742-6596/649/i=1/a=012005",
+		"author": [
+			{
+				"family": "Teixeira",
+				"given": "Eduardo Henrique"
+			},
+			{
+				"family": "Araújo",
+				"given": "Aletéia Patrícia Favacho",
+				"dropping-particle": "de"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/HZ79C5UD",
+		"type": "paper-conference",
+		"title": "Análise Dinâmica do Comportamento de Filas de Mensagens para o Aumento do Paralelismo de Consumo",
+		"collection-title": "Qualis B4",
+		"event-webpage": "http://www.wscad-2016.ufs.br",
+		"event-sigla": "WSCAD",
+		"deadline-submission": "October,5-7",
+		"event-date": "August,2",
+		"event": "Simpósio em Sistemas Computacionais de Alto Desempenho",
+		"event-place": "WSCAD",
+		"abstract": "Um grande desafio para alcançar a elasticidade em computação distribuída é evitar o fenômeno do limiar de detecção de elasticidade para cima ou para baixo. Este artigo apresenta a análise dinâmica dos fluxos de filas de mensagens, e como aumentar o paralelismo de consumo baseado no comportamento da vazão. Para isto, é apresentada a implementação do middleware IOD (Increase On Demand) com suporte ao aumento e a diminuição de worker threads para conter o crescimento de filas de mensagens utilizando a técnica de heurísticas baseada em limites por um determinado tempo, e agrupamento de mensagens em subfilas de acordo com um critério de classificação. Ao final, são apresentados os resultados da execução do middleware sob as condições de rajadas constantes de mensagens, aumento de threads limitado pelo consumo de CPU e pelo desvio padrão da vazão média de saída de mensagens, bem como o suporte à elasticidade com tolerância a falhas.",
+		"URL": "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Trabalho?id=23685",
+		"author": [
+			{
+				"family": "Teixeira",
+				"given": "Eduardo Henrique"
+			},
+			{
+				"family": "Araújo",
+				"given": "Aletéia Patrícia Favacho",
+				"dropping-particle": "de"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/RNBQSJAA",
+		"type": "paper-conference",
+		"title": "Técnicas de suporte à decisão: o uso do Data Mining para descrever o processo migratório dos militares do Exército Brasileiro",
+		"collection-title": "Qualis C",
+		"event-webpage": "http://www.abepro.org.br/enegep/2016/index.asp",
+		"event-sigla": "ENEGEP",
+		"deadline-submission": "October,3-6",
+		"event-date": "May,8",
+		"event": "Encontro Nacional de Engenharia de Produção",
+		"event-place": "ENEGEP",
+		"abstract": "O   Exército   Brasileiro   tem   evoluído   consideravelmente,   em   virtude   do \nemprego  da  Tecnologia  da  Informação  como  um  dos  instrumentos  mais \neficazes  deste  p\nrocesso.  Na  tentativa  de  minimizar  o  tempo  de  análise  e \nplanejamento  necessário,  o  Exército  Brasileiro  tem  adotado  novas  técnicas \nde  processamento  de  dados.  Dentre  elas  a  mineração  de  dados  tem  sido \nutilizada  para  a  descoberta  de  conhecimento  proporcionand\no  uma  grande \ncontribuição para a Força Terrestre (FT). A mineração de dados apresenta\n-\nse \ncomo  um  recurso  poderoso  na  identificação  de  padrões  relacionados  à \nmovimentação de militares no território nacional, pois fornece subsídios para \nanálise   de   novas   estr\natégias   no   controle   do   seu   efetivo.   Pode   ainda, \napresentar informações que justificam modificação de normas adequando\n-\nas \nà  visão  estratégicas  da  FT.  Quanto  mais  rápido  forem  identificados  estes \npadrões, menor será o tempo para o planejamento de novas estra\ntégias. Este \nartigo  propõe  apresentar  o  emprego  de  técnicas  de  Data  Mining,  com  foco \nna metodologia do CRISP\n-\nDM, quanto a análise e identificação de padrões no \nprocesso de movimentação de militares no território nacional.",
+		"URL": "http://www.abepro.org.br/biblioteca/TN_STO_213_263_28400.pdf",
+		"author": [
+			{
+				"family": "Monteiro",
+				"given": "Simone Borges Simão"
+			},
+			{
+				"family": "Moraes",
+				"given": "Ricardo Alves"
+			},
+			{
+				"family": "Araujo",
+				"given": "Misael Sousa",
+				"dropping-particle": "de"
+			},
+			{
+				"family": "Castello Branco",
+				"given": "Iana Giesbrecht"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/IMX3MFAB",
+		"type": "paper-conference",
+		"title": "Análise de Riscos em Desenvolvimento de Software Ágil: Estudo de Caso na Administração Pública Federal",
+		"collection-title": "Qualis C",
+		"event-webpage": "http://www.simpep.feb.unesp.br/",
+		"event-sigla": "SIMPEP",
+		"deadline-submission": "November,09-11",
+		"event-date": "July,14",
+		"event": "Simpósio de Engenharia de Produção",
+		"event-place": "SIMPEP",
+		"abstract": "O DESENVOLVIMENTO DE SOFTWARE É UMA ATIVIDADE REVESTIDA DE RISCOS PARA O PROJETO. MUITOS ÓRGÃOS DA ADMINISTRAÇÃO PÚBLICA FEDERAL ADOTAM METODOLOGIAS DE DESENVOLVIMENTO ORIUNDAS DO PROCESSO UNIFICADO. ENTRETANTO, NÃO APLICAM SEUS PRINCÍPIOS FUNDAMENTAIS, DE SEREM ITERATIVO E INCREMENTAL. O TRIBUNAL DE CONTAS DA UNIÃO (TCU) TEM ANALISADO OS ÓRGÃOS QUE ADOTARAM OS MÉTODOS ÁGEIS NO DESENVOLVIMENTO E/OU CONTRATAÇÃO DE PROJETOS DE TECNOLOGIA DA INFORMAÇÃO. O EMPREGO DE GESTÃO DE RISCOS NO PROCESSO DE DESENVOLVIMENTO SE TORNA EFICIENTE NA CONDUÇÃO DE PROJETOS BEM SUCEDIDOS. FORAM REALIZADAS PESQUISAS NA LITERATURA E DE CAMPO PARA REUNIR IDEIAS A SEREM INSERIDAS NA ANÁLISE DOS RISCOS PROPOSTO POR ESTE ESTUDO. A INTENÇÃO DESTE ESTUDO É APRESENTAR OS RESULTADOS DA ANÁLISE DOS RISCOS ASSOCIADOS AO USO DA METODOLOGIA DE DESENVOLVI-MENTO ÁGIL APONTADO PELO TCU A SER UTILIZADO PELO EXÉRCITO BRASILEIRO, EM PROJETOS DE DESENVOLVIMENTO DE SOFTWARE ÁGIL.",
+		"URL": "http://dx.doi.org/10.13140/RG.2.1.4496.3281",
+		"author": [
+			{
+				"family": "MONTEIRO",
+				"given": "S. B. S."
+			},
+			{
+				"family": "RODRIGUES",
+				"given": "C. K. S."
+			},
+			{
+				"family": "MORAES",
+				"given": "R. A."
+			},
+			{
+				"family": "ROCHA",
+				"given": "G."
+			},
+			{
+				"family": "BRANCO",
+				"given": "I."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/R6FFNP6R",
+		"type": "paper-conference",
+		"title": "Docimentação Automática para mapeamento de processos operacionais em contratos baseados na IN 04",
+		"collection-title": "Qualis C",
+		"event-webpage": "http://www.simpep.feb.unesp.br/",
+		"event-sigla": "SIMPEP",
+		"deadline-submission": "November,09-11",
+		"event-date": "July,14",
+		"event": "Simpósio de Engenharia da Produção",
+		"event-place": "SIMPEP",
+		"abstract": "EM UMA ORGANIZAÇÃO UM FATOR CRÍTICO DE SUCESSO É MANTER O NEGÓCIO OPERACIONAL PARA QUE OS FUNCIONÁRIOS SE MANTENHAM PRODUTIVOS E GEREM OS RESULTADOS ESPERADOS. RECENTEMENTE OS NEGÓCIOS ESTÃO CADA VEZ MAIS DEPENDENTES DA TECNOLOGIA DA INFORMMAÇÃO – TI, PARA FORNECER OU CONSUMIR SERVIÇOS QUE TRAZEM VALOR AO NEGÓCIO. POR SER MUITO DINÂMICO A TI REQUER INVESTIMENTO E APRIMORAMENTO CONSTANTE, LOGO A CONTRAÇÃO DE MÃO DE OBRA QUALIFICADA PASSOU A SER MAIS REQUISITADA PARA ACELERAR O ALCANCE DESSE VALOR. DURANTE A EXECUÇÃO DOS SERVIÇOS PELAS EMPRESAS CONTRATADAS PODEM OCORRER FALHAS NA OPERAÇÃO GERANDO RETRABALHO, PERDA DE TEMPO OU MATERIAL. ESTE ESTUDO DE CASO APRESENTA UMA ANÁLISE REFERENTE A FALHAS NA PRESTAÇÃO DE SERVIÇOS ENFRENTADOS NA CENTRAL DE SERVIÇOS DE UMA EMPRESA PRIVADA QUE PRESTA SERVIÇOS PARA O GOVERNO. FORAM UTILIZADAS TÉCNICAS DE MAPEAMENTO DE PROCESSOS, ANÁLISE DE ÁRVORE DE FALHAS, ANÁLISE DOS MODOS E EFEITOS DE FALHAS, E ANÁLISE DOS PROCESSOS CRÍTICOS POR ESPECIALISTAS. ESTE ESTUDO PROPICIOU IDENTIFICAR AS FALHAS MAIS CRÍTICAS DO PROCESSO DE PRESTAÇÃO DE SERVIÇOS E PROPOR MELHORIAS PARA GANHO DE CONTROLE.",
+		"URL": "http://www.simpep.feb.unesp.br/anais_simpep.php?e=9",
+		"author": [
+			{
+				"family": "Alves",
+				"given": "Gustavo de Freitas"
+			},
+			{
+				"family": "Monteiro",
+				"given": "Simone Borges Simão"
+			},
+			{
+				"family": "Souza",
+				"given": "João Carlos Felix"
+			},
+			{
+				"family": "Oliveira",
+				"given": "Edgard Costa"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/KNZCVCA4",
+		"type": "paper-conference",
+		"title": "Análise de Mobilidade em Redes Sociais",
+		"collection-title": "Qualis não identificado",
+		"event-webpage": "http://www.csbc2016.com.br/#!5brasnam/vlcug",
+		"event-sigla": "BrasNAM",
+		"deadline-submission": "July,05-06",
+		"event-date": "April, 21",
+		"event": "Brazilian Workshop on Social Network Analysis and Mining",
+		"event-place": "BrasNAM",
+		"abstract": "In order to identify new leaderships through the concepts of centrality and prestige inside software communities, complex networks study and analysis can help us understand if the collaboration activity is capable of producing knowledge inside the community. This article proposes the usage of a mobility rate metric, calculated as the reason between the members who could actually learn through collaboration. The calculation is made by analyzing the creation of collaboration objects, and the result is exemplified applying the technique to Brazilian Public Software Portal communities’ collaboration data.",
+		"URL": "http://www.eduardosan.com/publication/analise-de-mobilidade-em-redes-sociais/",
+		"author": [
+			{
+				"family": "Santos",
+				"given": "Eduardo Ferreira",
+				"dropping-particle": "dos"
+			},
+			{
+				"family": "Lima",
+				"given": "Fernanda"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/2ITIH9W5",
+		"type": "paper-conference",
+		"title": "Semantic Uplift Criminal Data from Social Networks",
+		"collection-title": "Qualis B4",
+		"event-webpage": "http://internet-conf.org/",
+		"event-sigla": "ICWI",
+		"deadline-submission": "October,28-30",
+		"event-date": "July,29",
+		"event": "International Conference WWW/Internet",
+		"event-place": "ICWI",
+		"abstract": "The evolution of web technologies brought a new view over Web published data, making the information available to both\nhumans and machines.  However, as societies are built over citizens’ needs, it is difficult to determine how governments\nare performing on addressing these needs.  Social networks are an interesting tool for people to express their aspirations,\nbut monitoring peoples’ activities to understand their behavior is a difficult task.  This paper presents an application of the\nsemantic uplift technique on social networks to store violence and criminality data. The procedure uses the output of natural\nlanguage processing techniques to classify criminal activity in a general taxonomy, so data can be compared to worldwide\nstatistics.",
+		"URL": "https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiRouDnwZ_OAhUMjpAKHXbtDokQFgghMAA&url=http%3A%2F%2Fwww.eduardosan.com%2Fwp-content%2Fuploads%2F2015%2F02%2Ficwi-2014.pdf&usg=AFQjCNHCJZyvUpAHbuoqA5YqbUQff77duA&sig2=MKjigt5aqWQc-l_qjjSrMQ",
+		"author": [
+			{
+				"family": "Santos",
+				"given": "Eduardo Ferreira",
+				"dropping-particle": "dos"
+			},
+			{
+				"family": "Lima",
+				"given": "Fernanda"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/IWBEACEF",
+		"type": "paper-conference",
+		"title": "Aplicação do Método Multicritério AHP na Seleção de Atividades do Processo de Implementação de Software",
+		"collection-title": "Qualis C",
+		"event-webpage": "http://www.simpep.feb.unesp.br/",
+		"event-sigla": "SIMPEP",
+		"deadline-submission": "November,09-11",
+		"event-date": "July,14",
+		"event": "Simpósio de Engenharia de Produção",
+		"event-place": "SIMPEP",
+		"abstract": "ESTE TRABALHO APRESENTA UMA DISCUSSÃO DA APLICAÇÃO DO MÉTODO AHP (PROCESSO DE ANÁLISE HIERÁRQUICA), QUE É UM MÉTODO MULTICRITÉRIO QUE PODE SER UTILIZADO COMO FERRAMENTA PARA AUXILIAR A TOMADA DE DECISÃO DOS GESTORES DE TI NO PROCESSO DE IMPPLEMENTAÇÃO DE SOFTWARE. PARA ALCANCE DOS OBJETIVOS, FOI REALIZADO ESTUDO DE CASO NA DIRETORIA DE TI DE UMA INSTITUIÇÃO FINANCEIRA, POR MEIO DE UMA PESQUISA EXPLORATÓRIA, COM INTERAÇÃO DIRETA COM OS ANALISTAS DE TI E GERENTES DE EQUIPE PARA COLETA DE DADOS ATRAVÉS DE QUESTIONÁRIO. EMBORA SEJA POUCO DIFUNDIDO DENTRO DAS ORGANIZAÇÕES E, COMPLEXO QUANDO SE TEM MUITAS ALTERNATIVAS PARA AVALIAÇÃO, OS RESULTADOS DEMONSTRAM QUE O MÉTODO MULTICRITÉRIO AHP É ADEQUADO A ANÁLISE DE RISCOS, POIS É EFICIENTE NO JULGAMENTO DE IMPORTÂNCIA RELATIVA DOS CRITÉRIOS DEFINIDOS E, NA OBTENÇÃO DE UM RANKING DAS ALTERNATIVAS AVALIADAS.",
+		"author": [
+			{
+				"family": "Silveira",
+				"given": "Lázara Aline de Oliveira Sousa"
+			},
+			{
+				"family": "Oliveira",
+				"given": "Edgard Costa"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/SR8C286H",
+		"type": "paper-conference",
+		"title": "Monitoramento de Desempenho com Middleboxes em Redes Definidas por Software",
+		"collection-title": "Qualis B4",
+		"event-webpage": "http://www.sbrt.org.br/sbrt2016/",
+		"event-sigla": "SBrT",
+		"deadline-submission": "August,30-September,2",
+		"event-date": "April,4",
+		"event": "Simpósio Brasileiro de Telecomunicações",
+		"event-place": "SBrT",
+		"abstract": "O  gerenciamento  de  desempenho  de  aplicações é frequentemente  dificultado  por middleboxes em razão  de  sua variedade  e  capacidade  de  alterar  o  tráfego  que  os  atravessa.\nCom o advento das Redes Definidas por Software, surgem novas possibilidades  para o gerenciamento  de  desempenho a partir da programabilidade dos dispositivos e do controle centralizado do tráfego.  Este  trabalho  propõe  uma  arquitetura  que  objetiva mitigar  desafios  impostos  pelos middleboxes ao monitoramento de  desempenho  nessas  redes.  Em  particular, é  apresentado  e\nvalidado  um  protótipo  que identifica  o  tempo  de  resposta  e  a disponibilidade  de  aplicações na presença  de  dois middleboxes, um balanceador de carga e um IPS.",
+		"URL": "http://www.sbrt.org.br/sbrt2015/en/technical-program/",
+		"author": [
+			{
+				"family": "Gondim",
+				"given": "Ethel Barreto"
+			},
+			{
+				"family": "Pinheiro",
+				"given": "Antônio J."
+			},
+			{
+				"family": "Campelo",
+				"given": "Divanilson R."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/FBV4DGCF",
+		"type": "paper-conference",
+		"title": "Using Political Party Affiliation Data to Measure Civil Servants' Risk of Corruption",
+		"container-title": "BRACIS",
+		"collection-title": "Qualis não identificado",
+		"event-webpage": "http://www.cin.ufpe.br/~bracis2016/",
+		"event-sigla": "BRACIS",
+		"deadline-submission": "October,9-12",
+		"event-date": "June,5",
+		"event": "Brazilian Conference on Intelligent Systems",
+		"event-place": "BRACIS",
+		"abstract": "This paper presents a case study of machine learning applied to measure the risk of corruption of civil servants using political party affiliation data. Initially, a statistical hypothesis test verified the dependency between corruption and political party affiliation. Then, we constructed datasets with standardization and three different discrimination techniques. Using Weka environment, this work shows the application and statistical evaluation of four classification algorithms to build models for predicting risk of corruption: Bayesian Networks, Support Vector Machines, Random Forest, and Artificial Neural Networks with back propagation. To evaluate the models we used data mining metrics such as precision, recall, kappa statistic and percent correct. Lastly, the case study compares the learned model with the best performance to the experts' model. The comparison not only confirms previous experts' affirmations, but also provides new assertions on the affiliation-corruptibility relation.",
+		"URL": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6984825&filter%3DAND%28p_IS_Number%3A6984785%29%26pageNumber%3D2",
+		"author": [
+			{
+				"family": "Carvalho",
+				"given": "R. S."
+			},
+			{
+				"family": "Carvalho",
+				"given": "R. N."
+			},
+			{
+				"family": "Ladeira",
+				"given": "M."
+			},
+			{
+				"family": "Monteiro",
+				"given": "F. M."
+			},
+			{
+				"family": "Mendes",
+				"given": "G. L. d O."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/SDBZTE5I",
+		"type": "paper-conference",
+		"title": "“Who is their mother?”: A classification work to get answers over registration people databases",
+		"collection-title": "Qualis B4",
+		"event-webpage": "http://cin.ufpe.br/~bracis2016/welcome-eniac.html",
+		"event-sigla": "ENIAC",
+		"deadline-submission": "October,9-12",
+		"event-date": "July,17",
+		"archive_location": "http://www.lbd.dcc.ufmg.br/colecoes/eniac/2014/0069.pdf",
+		"event": "Encontro Nacional de Inteligência Artificial e Computação",
+		"event-place": "ENIAC",
+		"abstract": "Discovering  how  people  are  related  contributes  to\naccurately assessing several scenarios within a criminal investiga-\ntion. If two people have family ties, such as, brothers or cousins,\nfor  example,  and  one  of  them  has  been  involved  in  criminal\nactivities,  there  is  a  high  probability  that  the  other  has  also\nbeen involved in these same or other similar activities. However,\nin  mapping  relationships,  certain  variables  arise  that  make  it  a\ndifficult  task:  in  some  cases  there  are  gaps  in  the  information\nabout people involved; tracking relevant facts on large databases\nto entertain several possibilities, and subsequently crosschecking\nthese facts for accuracy, is cumbersome, often precarious and time\nconsuming. To facilitate this effort, we have explored the problem\nof identifying relationships from registration forms in a database,\nstarting  with  the  mother  because  this  role  is  the  relational  base\nof several others. We summarize the data in a proposal in which\ninformation is collected about two people and processed in order\nto  attribute  a  similarity  score  for  both  their  name  and  address.\nThen,  we  apply  machine  learning  to  classify  their  relationship\nbased on these scores using two well-known algorithms: Support\nVector  Machines,  based  on  hyperplanes;  and  Na\n ̈\nıve  Bayes,  a\nmodel  which  uses  conditional  probability  to  classify  the  input.\nAt the end of the process, we present a minimum set of derived\nattributes which contributes to get answers to this problem with\nthe  selected  model.  We  anticipate  that  this  model  will  help  the\nspecialists  of  the  Brazilian  Office  of  the  Comptroller  General\n(CGU)  to  identify  collusion  in  the  government.",
+		"author": [
+			{
+				"family": "Erven",
+				"given": "Gustavo C. G.",
+				"non-dropping-particle": "van"
+			},
+			{
+				"family": "Carvalho",
+				"given": "R. N."
+			},
+			{
+				"family": "Holanda",
+				"given": "Maristela"
+			},
+			{
+				"family": "Ladeira",
+				"given": "Marcelo"
+			},
+			{
+				"family": "Rocha",
+				"given": "Henrique"
+			},
+			{
+				"family": "Mendes",
+				"given": "Gilson"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/FDAT22G6",
+		"type": "paper-conference",
+		"title": "Exploring the Combination of Software Visualization and Data Clustering in the Software Architecture Recovery Process",
+		"collection-title": "Qualis A1",
+		"event-webpage": "http://www.sigapp.org/sac/sac2017/",
+		"event-sigla": "SAC",
+		"deadline-submission": "2017,April,3-7",
+		"event-date": "September,15",
+		"event": "Symposium on Applied Computing",
+		"event-place": "SAC",
+		"abstract": "Modernizing a legacy system is a costly process that requires deep understanding of the system architecture and its components. Without an understanding of the software architecture that will be rewritten, the entire process of reengineering can fail. For this reason, semi-automatic and automatic techniques for architecture recovery have been active focuses of research. However, there are still important improvements that need to be addressed on this field of research w.r.t. achieving a more accurate architecture recovery process. In this work, we propose to explore if an approach where visualization and clustering applied together can provide a higher accuracy on the software architecture recovery process. An experimental study was conducted in a industrial environment to empirically evaluate our investigation in four commercial systems. Our results indicated a statistically significant increase in the accuracy of the recovered architectures in all cases.",
+		"URL": "http://doi.acm.org/10.1145/2851613.2851765",
+		"author": [
+			{
+				"family": "Paiva",
+				"given": "Renato"
+			},
+			{
+				"family": "Rodrigues",
+				"given": "Genaína N."
+			},
+			{
+				"family": "Bonifácio",
+				"given": "Rodrigo"
+			},
+			{
+				"family": "Ladeira",
+				"given": "Marcelo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/FD84MXFW",
+		"type": "paper-conference",
+		"title": "Application of Data Mining Techniques and Competitive Intelligence for efficiency gains in Public Service Selection Exam Agencies",
+		"collection-title": "Qualis não identificado",
+		"event-webpage": "http://www.icieom.org/",
+		"event-sigla": "ICIEOM",
+		"deadline-submission": "July,13-15",
+		"event-date": "March,4",
+		"event": "International Conference on Industrial Engineering and Industrial Management",
+		"event-place": "ICIEOM",
+		"abstract": "This paper is based on the application of massive data mining techniques to databases related to Public Service Selection Exams to highlight specific knowledge skills discovery. The main...",
+		"URL": "https://www.researchgate.net/publication/280102087_Application_of_Data_Mining_Techniques_and_Competitive_Intelligence_for_efficiency_gains_in_Public_Service_Selection_Exam_Agencies",
+		"author": [
+			{
+				"family": "Neumann",
+				"given": "Clóvis"
+			},
+			{
+				"family": "Junior",
+				"given": "Roberto Rosa da Silveira"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					7,
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/B4MRVGKN",
+		"type": "paper-conference",
+		"title": "Application of text mining techniques for classification of documents: a study of automation of complaints screening in a Brazilian Federal Agency",
+		"collection-title": "Qualis B4",
+		"event-webpage": "http://cin.ufpe.br/~bracis2016/welcome-eniac.html",
+		"event-sigla": "ENIAC",
+		"deadline-submission": "October,9-12",
+		"event-date": "July,17",
+		"event": "Encontro Nacional de Inteligência Artificial e Computação",
+		"event-place": "ENIAC",
+		"abstract": "The Brazil's Office of the Comptroller General (CGU) is the agency of the Federal Government in charge of assisting the President of the Republic in matters related to in- ternal control activities, public audits, corrective and disciplinary measures, corruption prevention and combat, and coordinating ombudsman's activities. Through its website, citizens submit complaints related to corruption and misuse of public sources to CGU. These complaints must be screened and delivered to the corresponding department based on its content. Nowadays the complaints screening is done manually and they are delivered to one of the 82 (eighty two) different units from various departments at CGU. This paper presents a proof of concept model to automatically classify the complaints in order to increase the speed of the current screening process. The proposed model was built using text mining and achieved an F-measure of 0.84 using Random Forest.",
+		"URL": "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Trabalho?id=21567",
+		"author": [
+			{
+				"family": "Maia",
+				"given": "Patricia"
+			},
+			{
+				"family": "Carvalho",
+				"given": "R. N."
+			},
+			{
+				"family": "Ladeira",
+				"given": "Marcelo"
+			},
+			{
+				"family": "Rocha",
+				"given": "Henrique"
+			},
+			{
+				"family": "Mendes",
+				"given": "Gilson"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/CI9X9QNW",
+		"type": "paper-conference",
+		"title": "Predictive Models on Tax Refund Claims - Essays of Data Mining in Brazilian Tax Administration",
+		"collection-title": "Qualis C",
+		"event-webpage": "http://www.dexa.org/egovis2016",
+		"event-sigla": "EGOVIS",
+		"deadline-submission": "September,5-8",
+		"event-date": "March,23",
+		"event": "Electronic Government and the Information Systems Perspective",
+		"event-place": "EGOVIS",
+		"abstract": "One of the main goals of every tax administration is safeguarding tax justice. For that matter, accurate taxpayers’ auditing selection plays an important role. Current scenario of economic recession, budget cuts and tax professionals’ hiring difficulty combined with growth of both population and number of enterprises presents the necessity of a more efficiently approach from tax administration in order to meet its objectives. The present work intends to show how data mining techniques usage helps better understand the profile of non compliant tax payers who claim for tax refunds. Moreover, we present results on the adoption of predictive models towards selection improvement of those who claims that are more likely to be rejected in Federal Revenue of Brazil (RFB). Preliminary results shows that this approach is an efficient way for selecting tax payers rather than not using it.",
+		"URL": "http://link.springer.com/chapter/10.1007/978-3-319-22389-6_16",
+		"author": [
+			{
+				"family": "Silva",
+				"given": "Leon Sólon",
+				"dropping-particle": "da"
+			},
+			{
+				"family": "Carvalho",
+				"given": "Rommel Novaes"
+			},
+			{
+				"family": "Souza",
+				"given": "João Carlos Felix"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					9,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/73CSX3V6",
+		"type": "paper-conference",
+		"title": "Analyzing Suspicious Medical Visit Claims from Individual Healthcare Service Providers Using K-Means Clustering",
+		"collection-title": "Qualis C",
+		"event-webpage": "http://www.dexa.org/egovis2016",
+		"event-sigla": "EGOVIS",
+		"deadline-submission": "September,5-8",
+		"event-date": "March,23",
+		"event": "Electronic Government and the Information Systems Perspective",
+		"event-place": "EGOVIS",
+		"abstract": "This study has as its main objective the analysis of healthcare claims data from individual providers, such as independent doctors and allied health professionals, with the purpose of finding excessive billing of medical visitation procedures. We present a discussion of the main difficulties in preventing against abusive claims, and with the use of the CRISP-DM method and the k-means clustering algorithm, propose a model for assessing the behavior of providers engaged in this sort of practice. We conclude that the clustering algorithm was able to provide a more efficient, objective, and reproducible framework for identifying outliers, which could be used for future investigations in similar datasets.",
+		"URL": "http://link.springer.com/chapter/10.1007/978-3-319-22389-6_14",
+		"author": [
+			{
+				"family": "Hillerman",
+				"given": "Tiago P."
+			},
+			{
+				"family": "Carvalho",
+				"given": "Rommel N."
+			},
+			{
+				"family": "Reis",
+				"given": "Ana Carla B."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					9,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/2572767/items/KKNSQFFR",
+		"type": "paper-conference",
+		"title": "Avaliação de Riscos do Processo de Planejamento da Contratação de TI: uma proposta para Órgãos Governamentais Brasileiros",
+		"collection-title": "Qualis B5",
+		"event-webpage": "http://www.seer.unirio.br/index.php/isys",
+		"event-sigla": "iSys",
+		"deadline-submission": "Trimestral",
+		"event-date": "A qualquer momento",
+		"event": "Revista Brasileira de Sistemas de Informação",
+		"event-place": "iSys",
+		"abstract": "No governo brasileiro, o processo de contratação de TI é altamente complexo e envolve\nmuitos recursos públicos. Na busca da melhoria contínua, a análise dos processos\ngerenciais é um fator crítico de sucesso para garantir que as contratações atendam ao\ninteresse público. A proposta deste artigo consiste na aplicação de uma adaptação da\nAnálise de Modo e Efeito de Falha (FMEA) ao processo de Planejamento da Contratação\nde Solução de Tecnologia da Informação (PCSTI) no governo, como ferramenta do\nprocesso de gestão de riscos. Para tanto, foram realizadas pesquisas bibliográficas em\ndocumentos e normas, em seguida com o apoio de um grupo de especialistas aplicou-se a\nFMEA no processo PCSTI a fim de realizar um estudo de caso da aplicação da ferramenta\ne estabelecer uma lista de riscos com uma proposta de gestão e tratamento.",
+		"URL": "https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=7&ved=0ahUKEwjspbGAzZ7OAhXJkZAKHejzCYcQFgg-MAY&url=http%3A%2F%2Fwww.seer.unirio.br%2Findex.php%2Fisys%2Farticle%2Fdownload%2F5322%2F5043&usg=AFQjCNH5r8j849a_EGI3Qn2o2RtopFmoBg&sig2=9v0gffYV4KdUEhth_Forsg",
+		"author": [
+			{
+				"family": "Silva",
+				"given": "Dyego Alves",
+				"dropping-particle": "da"
+			},
+			{
+				"family": "Oliveira",
+				"given": "Edgard Costa"
+			},
+			{
+				"family": "Canedo",
+				"given": "Edna Dias"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	}
+]
