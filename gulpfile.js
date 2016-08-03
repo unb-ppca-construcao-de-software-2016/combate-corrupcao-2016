@@ -100,3 +100,5 @@ gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js'], function() 
     gulp.watch('*.html', browserSync.reload);
     gulp.watch('js/**/*.js', browserSync.reload);
 });
+
+gulp.task('heroku:production', ['less', 'minify-css', 'minify-js', 'copy']);
