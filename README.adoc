@@ -29,3 +29,7 @@ Uma plataforma que permita ao aluno localizar informações sobre as publicaçõ
 
 == Nossas atividades
 * https://trello.com/publiqueseuartigo
+
+== Nossa comunicação
+* https://unb-ppca-2016.slack.com/messages/grupo1/
+
