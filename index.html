@@ -42,10 +42,53 @@
 <script type="text/javascript">
 $(function(){
 $(".result-list").hide();
+$(".result-list2").show();
+$( ".home" ).show(function(){
+var search = 'a';
+    $.ajax
+    ({
+        type: "POST",
+        //the url where you want to sent the userName and password to
+        url: '/search/publications',
+        dataType: 'json',
+        async: false,
+        //json object to sent to the authentication url
+        data: { "search": search},
+        success: function (result) {
+            drawPublicationsTable2(result);
+        },
+        error: function(err){
+            console.log(err);
+        }
+    });
+}
+);
+ 
 $("#linkToHome").click(function(){
     $( ".result-list" ).hide();
+    $( ".result-list2" ).show();
     $( ".home" ).show();
+    var search = 'a';
+    $.ajax
+    ({
+        type: "POST",
+        //the url where you want to sent the userName and password to
+        url: '/search/publications',
+        dataType: 'json',
+        async: false,
+        //json object to sent to the authentication url
+        data: { "search": search},
+        success: function (result) {
+            drawPublicationsTable2(result);
+        },
+        error: function(err){
+            console.log(err);
+        }
+    });
 })
+
+
+
 $("#query").keypress(function(event){
     if(event.keyCode == 13){
         event.preventDefault();
@@ -56,6 +99,7 @@ function search(e){
     e.preventDefault();
     $( ".result-list" ).show();
     $( ".home" ).hide();
+    $( ".result-list2").hide();
     var search = $("input[name=query]").val();
     $.ajax
     ({
@@ -119,6 +163,13 @@ function drawPublicationsTable(data) {
     }
 }
 
+function drawPublicationsTable2(data) {
+    $("#publications-table2").find("tr:gt(0)").remove();
+    for (var i = 0; i < data.length; i++) {
+        drawPublicationsRow2(data[i]);
+    }
+}    
+    
 function drawPublicationsRow(rowData) {
     var row = $("<tr />")
   $("#publications-table").append(row); //this will append tr element to table... keep its reference for a while since we will add cels into it
@@ -128,7 +179,19 @@ function drawPublicationsRow(rowData) {
     row.append($("<td><a href='"+ rowData["event-webpage"] +"' target='_blank'>" +  rowData.event + "</a></td>"));
     row.append($("<td>" + rowData["collection-title"] + "</td>"));
     row.append($("<td>" + rowData.issued + "</td>"));
+    }
+
+function drawPublicationsRow2(rowData) {
+    var row = $("<tr />")
+  $("#publications-table2").append(row); //this will append tr element to table... keep its reference for a while since we will add cels into it
+    row.append($("<td><a href='"+ rowData.URL +"' target='_blank'>" +  rowData.title + "</a></td>"));
+    row.append($("<td>" + drawAuthors(rowData.author) + "</td>"));
+    row.append($("<td><a href='"+ rowData["event-webpage"] +"' target='_blank'>" +  rowData["event-sigla"] + "</a></td>"));
+    row.append($("<td><a href='"+ rowData["event-webpage"] +"' target='_blank'>" +  rowData.event + "</a></td>"));
+    row.append($("<td>" + rowData["collection-title"] + "</td>"));
+    row.append($("<td>" + rowData.issued + "</td>"));
 }
+    
 function drawAuthors(authorsArray){
     var authors = "";
     for (var i = 0; i < authorsArray.length; i++) {
@@ -228,7 +291,29 @@ function drawAuthors(authorsArray){
                             </thead>
                         </table>
                 </div>
+		</div>
+
+<div class="row result-list2" id="result-list2">
+ 
+                <div>
+                    <h2>Publicações do PPCA - UnB</h2>
+                    <table class="table table-bordered" id="publications-table2">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">Título do artigo</th>
+                                    <th class="text-center">Autores</th>
+                                    <th class="text-center">Sigla</th>
+                                    <th
+    class="text-center">Evento ou Periódico</th>
+                                    <th class="text-center">Estrato</th>
+                                    <th class="text-center">Ano de publicação</th>
+                                </tr>
+                            </thead>
+                        </table>
+		      </div>
+
             </div>
+		
         </div>
     </header>
 
