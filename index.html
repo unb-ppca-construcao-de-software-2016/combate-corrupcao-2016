@@ -121,13 +121,13 @@ function drawPublicationsTable(data) {
 
 function drawPublicationsRow(rowData) {
     var row = $("<tr />")
-    $("#publications-table").append(row); 
+  $("#publications-table").append(row); //this will append tr element to table... keep its reference for a while since we will add cels into it
     row.append($("<td><a href='"+ rowData.URL +"' target='_blank'>" +  rowData.title + "</a></td>"));
     row.append($("<td>" + drawAuthors(rowData.author) + "</td>"));
-    row.append($("<td>" + rowData["event-sigla"] + "</td>"));
-    row.append($("<td>" + rowData.event + "</td>"));
+    row.append($("<td><a href='"+ rowData["event-webpage"] +"' target='_blank'>" +  rowData["event-sigla"] + "</a></td>"));
+    row.append($("<td><a href='"+ rowData["event-webpage"] +"' target='_blank'>" +  rowData.event + "</a></td>"));
     row.append($("<td>" + rowData["collection-title"] + "</td>"));
-    row.append($("<td>" + rowData["event-webpage"] + "</td>"));
+    row.append($("<td>" + rowData.issued + "</td>"));
 }
 function drawAuthors(authorsArray){
     var authors = "";
@@ -189,13 +189,10 @@ function drawAuthors(authorsArray){
                         <span class="skills">Congressos - Conferências
     - Workshops</span>
 		        <hr class="star-light">
-		        <span class="skills"> O Ladeira continua te
-    cobrando a publicação de um artigo? Não sabe por onde começar? Precisando de inspiração? Confira aqui todos os
+		        <span class="skills"> É da área de Ciência da Computação e não sabe por onde começar? Precisando de inspiração? Faça sua busca por assunto, autor ou Qualis e encontre todas as Conferências, Congressos e Workshops com qualis da área de Ciência da Computação. É do PPCA e o Ladeira continua te cobrando a publicação de um artigo? Confira aqui também todos os
     trabalhos já publicados em conferências ou periódicos por alunos
     do Programa de Pós-Graduação em Computação Aplicada (PPCA)
-    da UnB. Faça sua busca por assunto, autor ou Qualis. Serão tambem
-    exibidas as Conferências de Ciência da Computação
-    relacionadas ao tema.  </span>
+    da UnB. </span>
                     </div>
                 </div>
             </div>
@@ -212,8 +209,7 @@ function drawAuthors(authorsArray){
                                     <th
     class="text-center">Evento ou Periódico</th>
                                     <th class="text-center">Estrato</th>
-                                    <th class="text-center">Página do
-    evento ou periódico</th>
+                                    <th class="text-center">Ano de publicação</th>
                                 </tr>
                             </thead>
                         </table>

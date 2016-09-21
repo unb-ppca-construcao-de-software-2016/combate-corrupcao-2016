@@ -32,8 +32,8 @@ app.post("/search/publications", function(req, res) {
     var search = req.body.search;
     var collection = db.get().collection('publippca');
 
-    var query = {$or: [{"title": new RegExp(search, 'i')},{"event-sigla": new RegExp(search, 'i')},{"event": new RegExp(search, 'i')},{"abstract": new RegExp(search, 'i')},{"collection-title": new RegExp(search, 'i')}]};
-    var result = collection.find(query, { _id : 0, id: 0, type: 0, "deadline-submission": 0, "event-place": 0, issued: 0, abstract: 0 }).toArray(function(err, items) {
+    var query = {$or: [{"title": new RegExp(search, 'i')},{"event-sigla": new RegExp(search, 'i')},{"issued": new RegExp(search, 'i')},{"event": new RegExp(search, 'i')},{"abstract": new RegExp(search, 'i')},{"collection-title": new RegExp(search, 'i')}]};
+    var result = collection.find(query, { _id : 0, id: 0, type: 0, "deadline-submission": 0, "event-place": 0, abstract: 0 }).toArray(function(err, items) {
         if(err){
             res.send(err);
         }
