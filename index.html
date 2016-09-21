@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>Publique seu Artigo!</title>
-
+<script type="text/javascript"></script>
+    <title>Onde publicar meu artigo?</title>
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -27,8 +27,122 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-84198833-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript" src="jquery-1.8.0.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$(".result-list").hide();
+$("#linkToHome").click(function(){
+    $( ".result-list" ).hide();
+    $( ".home" ).show();
+})
+$("#query").keypress(function(event){
+    if(event.keyCode == 13){
+        event.preventDefault();
+        search(event);
+    }
+});
+function search(e){
+    e.preventDefault();
+    $( ".result-list" ).show();
+    $( ".home" ).hide();
+    var search = $("input[name=query]").val();
+    $.ajax
+    ({
+        type: "POST",
+        //url para enviar o json
+        url: '/search/qualios',
+        dataType: 'json',
+        async: false,
+        //objeto json que sera enviado
+        data: { "search": search},
+        success: function (result) {
+            drawQualiosTable(result);
+            
+        },
+        error: function(err){
+            console.log(err);
+        }
+    });
+
+    //createTableFromJSON(response,"qualios-table");
+    $.ajax
+    ({
+        type: "POST",
+        //url para enviar o json
+        url: '/search/publications',
+        dataType: 'json',
+        async: false,
+        //objeto json que sera enviado
+        data: { "search": search},
+        success: function (result) {
+            drawPublicationsTable(result);
+        },
+        error: function(err){
+            console.log(err);
+        }
+    });
+    
+}
+$("#searchBtn").click(search);
+
+function drawQualiosTable(data) {
+    $("#qualios-table").find("tr:gt(0)").remove();
+    for (var i = 0; i < data.length; i++) {
+        drawQualiosRow(data[i]);
+    }
+}
+
+function drawQualiosRow(rowData) {
+    var row = $("<tr />")
+    $("#qualios-table").append(row); 
+    row.append($("<td>" + rowData.Sigla + "</td>"));
+    row.append($("<td>" + rowData.Nome + "</td>"));
+    row.append($("<td>" + rowData.Estrato + "</td>"));
+    row.append($("<td>" + rowData["Indice.H"] + "</td>"));
+    row.append($("<td>" + rowData.ISSN + "</td>"));
+}
+function drawPublicationsTable(data) {
+    $("#publications-table").find("tr:gt(0)").remove();
+    for (var i = 0; i < data.length; i++) {
+        drawPublicationsRow(data[i]);
+    }
+}
+
+function drawPublicationsRow(rowData) {
+    var row = $("<tr />")
+    $("#publications-table").append(row); 
+    row.append($("<td><a href='"+ rowData.URL +"' target='_blank'>" +  rowData.title + "</a></td>"));
+    row.append($("<td>" + drawAuthors(rowData.author) + "</td>"));
+    row.append($("<td>" + rowData["event-sigla"] + "</td>"));
+    row.append($("<td>" + rowData.event + "</td>"));
+    row.append($("<td>" + rowData["collection-title"] + "</td>"));
+    row.append($("<td>" + rowData["event-webpage"] + "</td>"));
+}
+function drawAuthors(authorsArray){
+    var authors = "";
+    for (var i = 0; i < authorsArray.length; i++) {
+        var name = authorsArray[i].familyname ? authorsArray[i].familyname  + " " : "";
+        var given = authorsArray[i].given ? authorsArray[i].given  + " " : "";
+        if(name !== "" || given !==""){
+            authors +=  name + given + "; " + "\n"; 
+        }
+    }
+    return authors;
+}
+});
+
+</script>
 </head>
 
 <body id="page-top" class="index">
@@ -36,12 +150,19 @@
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
+		
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <!--  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Faça sua Pesquisa!</a>
+                </button>-->
+                <a style="float:left;width:70%;" class="navbar-brand"
+            id="linkToHome" href="#page-top">Busque aqui por
+            conferência ou assunto!</a>
+				 <div style="float:left;width:30%;"class="bs-example">
+						<input size="80" class="search" placeholder="Ache pra mim!" id="query" name="query" type="text">
+						<input id="searchBtn" value="Buscar" class="submitButton" style="width: 20%; height: 45px;" type="button">
+					</div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -60,52 +181,61 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="row">
+            <div class="row home">
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Publique seu Artigo</span>
-                        <hr class="star-light">
-                        <span class="skills">Congressos - Conferências - Workshops e Jornals.</span>
+                        <span class="name">Onde publicar meu artigo?</span>
+                        <span class="skills">Congressos - Conferências
+    - Workshops</span>
+		        <hr class="star-light">
+		        <span class="skills"> O Ladeira continua te
+    cobrando a publicação de um artigo? Não sabe por onde começar? Precisando de inspiração? Confira aqui todos os
+    trabalhos já publicados em conferências ou periódicos por alunos
+    do Programa de Pós-Graduação em Computação Aplicada (PPCA)
+    da UnB. Faça sua busca por assunto, autor ou Qualis. Serão tambem
+    exibidas as Conferências de Ciência da Computação
+    relacionadas ao tema.  </span>
                     </div>
+                </div>
+            </div>
+            <div class="row result-list" id="result-list">
+ 
+                <div>
+                    <h2>Publicações do PPCA - UnB</h2>
+                    <table class="table table-bordered" id="publications-table">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">Título do artigo</th>
+                                    <th class="text-center">Autores</th>
+                                    <th class="text-center">Sigla</th>
+                                    <th
+    class="text-center">Evento ou Periódico</th>
+                                    <th class="text-center">Estrato</th>
+                                    <th class="text-center">Página do
+    evento ou periódico</th>
+                                </tr>
+                            </thead>
+                        </table>
+		      </div>
+		                     <div>
+                    <h2>Conferências de Computação</h2>                    
+                        <table class="table table-bordered" id="qualios-table">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">Sigla</th>
+                                    <th class="text-center">Nome</th>
+                                    <th class="text-center">Estrato</th>
+                                    <th class="text-center">Indice.H</th>
+                                    <th class="text-center">ISSN</th>
+                                </tr>
+                            </thead>
+                        </table>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Pesquisar</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Informe o termo aqui!</label>
-                                <input type="text" class="form-control" placeholder="Ache pra mim!" id="name" required data-validation-required-message="Informe um termo para busca!">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <footer class="text-center">
 		<div class="footer-below">
